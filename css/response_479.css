@@ -1,0 +1,215 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 16px;
+        --font_size_title: 40px;
+    }
+
+
+
+    /*-----------
+        Order
+    -----------*/
+    .order .close_btn
+    {
+        top: 24px;
+        right: 24px;
+
+        width: 36px;
+        height: 36px;
+        margin-right: 0;
+    }
+
+
+    .order .steps .sep
+    {
+        width: 28px;
+        margin: 0 13px;
+    }
+
+
+    .order .step_info .title
+    {
+        font-size: 30px;
+    }
+
+
+    .order .step_info.step1 .val label,
+    .order .step_info.step3 .val label
+    {
+        font-size: 12px;
+
+        width: calc(50% - 6px);
+    }
+
+    .order .step_info.step1 .val > * + *,
+    .order .step_info.step3 .val > * + *
+    {
+        margin-left: 12px;
+    }
+
+    .order .step_info.step1 .val input + *,
+    .order .step_info.step3 .val input + *
+    {
+        padding: 11px;
+    }
+
+
+    .order .step_info.step3 .val img
+    {
+        max-width: 18px;
+        max-height: 18px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .title
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+
+    .first_section .bg
+    {
+        width: 600px;
+
+        transform: translate(-140px, -156px);
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services
+    {
+        padding-bottom: 120px;
+    }
+
+
+    .services .block_title
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .services .main_title
+    {
+        top: 60px;
+    }
+
+    .services .main_title img
+    {
+        height: 50px;
+    }
+
+
+
+    /*------------
+        Result
+    ------------*/
+    .result .block_title
+    {
+        font-size: 60px;
+        line-height: 56px;
+    }
+
+
+    .result .stats
+    {
+        font-size: 26px;
+    }
+
+
+
+    .result .big_boss
+    {
+        padding: 32px 28px 0 28px;
+    }
+
+    .result .big_boss .photo
+    {
+        height: 326px;
+    }
+
+    .result .big_boss .name
+    {
+        font-size: 40px;
+    }
+
+    .result .big_boss .post
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .block_title
+    {
+        margin-bottom: 44px;
+    }
+
+
+    .clients .item
+    {
+        height: 68px;
+    }
+
+
+
+    /*----------
+        Need
+    ----------*/
+    .need .question
+    {
+        font-size: 20px;
+        line-height: 28px;
+
+        width: calc(50% + 117px);
+    }
+
+    .need .question.center
+    {
+        width: calc(50% + 32px);
+    }
+
+
+    .need .question img
+    {
+        top: -50px;
+
+        height: 100px;
+    }
+
+    .need .row + .row .question img
+    {
+        bottom: -16px;
+    }
+
+
+    .need .row .main_question
+    {
+        height: 140px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-top: 60px;
+    }
+}

@@ -1,0 +1,490 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 16px;
+        --font_size_title: 48px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    body.menu_open
+    {
+        width: 100%;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 32px 0;
+    }
+
+
+
+    /*----------
+        Menu
+    ----------*/
+    .menu
+    {
+        padding: 40px 0;
+    }
+
+
+    .menu .logo
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .menu .close_btn
+    {
+        top: 40px;
+        right: 40px;
+
+        width: 40px;
+        height: 40px;
+        margin-right: 0;
+    }
+
+    .menu .close_btn img
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    .menu .links
+    {
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    .menu .links > *
+    {
+        margin: 0 60px;
+    }
+
+
+    .menu .download_link
+    {
+        margin-top: 92px;
+    }
+
+
+    .menu .socials
+    {
+        margin-top: 52px;
+    }
+
+
+
+    /*-----------
+        Order
+    -----------*/
+    .order
+    {
+        padding: 40px 0 80px;
+    }
+
+
+    .order .logo
+    {
+        margin-bottom: 40px;
+    }
+
+    .order .logo img
+    {
+        height: 120px;
+    }
+
+
+    .order .steps
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .order .step_info .title
+    {
+        font-size: 36px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .line
+    {
+        margin-bottom: 36px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 40px 0 80px;
+    }
+
+
+    .first_section .data
+    {
+        width: 556px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 32px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+    .first_section .btn
+    {
+        margin-top: 48px;
+    }
+
+
+    .first_section .bg
+    {
+        width: 1100px;
+
+        transform: translate(-100px, -108px);
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services
+    {
+        padding: 80px 0 100px;
+    }
+
+
+    .services .block_title
+    {
+        margin-bottom: 92px;
+    }
+
+
+    .services .main_title
+    {
+        top: 72px;
+    }
+
+    .services .main_title img
+    {
+        height: 72px;
+    }
+
+
+    .services .row
+    {
+        margin-left: -24px;
+    }
+
+    .services .row > *
+    {
+        width: calc(25% - 24px);
+        margin-left: 24px;
+    }
+
+
+    .services .service:nth-child(1) .info,
+    .services .service:nth-child(2) .info,
+    .services .service:nth-child(3) .info,
+    .services .service:nth-child(4) .info
+    {
+        left: 8px;
+    }
+
+
+    .services .service .name
+    {
+        font-size: 27px;
+        line-height: 100%;
+    }
+
+
+    .services .service.active .bar.color1 + .info .name,
+    .services .service.active .bar.color2 + .info .name,
+    .services .service.active .bar.color3 + .info .name,
+    .services .service.active .bar.color4 + .info .name
+    {
+        transform: translate(12px, -116px);
+    }
+
+
+    .services .service:nth-child(1) .desc,
+    .services .service:nth-child(2) .desc,
+    .services .service:nth-child(3) .desc,
+    .services .service:nth-child(4) .desc
+    {
+        top: 112px;
+        left: 20px;
+    }
+
+
+
+    /*-----------
+        Brand
+    -----------*/
+    .brand
+    {
+        padding-bottom: 80px;
+    }
+
+
+    .brand .main_title
+    {
+        top: -100px;
+    }
+
+    .brand .main_title img
+    {
+        height: 104px;
+    }
+
+
+    .brand .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .brand .row > *
+    {
+        width: calc(25% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .brand .item:nth-child(1) .info,
+    .brand .item:nth-child(2) .info,
+    .brand .item:nth-child(3) .info,
+    .brand .item:nth-child(4) .info
+    {
+        left: 8px;
+    }
+
+
+    .brand .item .name
+    {
+        font-size: 27px;
+        line-height: 100%;
+    }
+
+
+
+    /*------------
+        Result
+    ------------*/
+    .result
+    {
+        padding: 100px 0 80px;
+    }
+
+
+    .result .data
+    {
+        width: calc(100% - 466px);
+    }
+
+
+    .result .block_title
+    {
+        font-size: 100px;
+        line-height: 80px;
+    }
+
+
+    .result .desc
+    {
+        font-size: 16px;
+        line-height: 26px;
+
+        margin-top: 52px;
+    }
+
+
+    .result .stats
+    {
+        font-size: 30px;
+        line-height: 100%;
+
+        margin-top: 48px;
+    }
+
+    .result .stats > * + *
+    {
+        margin-top: 48px;
+    }
+
+
+    .result .big_boss
+    {
+        width: 406px;
+        padding: 40px 32px 0 32px;
+    }
+
+
+    .result .big_boss .photo
+    {
+        height: 443px;
+    }
+
+
+    .result .big_boss .info
+    {
+        bottom: -12px;
+        left: -100px;
+    }
+
+    .result .big_boss .name
+    {
+        font-size: 56px;
+    }
+
+    .result .big_boss .post
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients
+    {
+        padding: 100px 0;
+    }
+
+
+    .clients .block_title
+    {
+        margin-bottom: 52px;
+    }
+
+
+    .clients .swiper
+    {
+        padding: 0 81px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 81px;
+        height: 52px;
+    }
+
+
+    .clients .item + .item
+    {
+        margin-top: 52px;
+    }
+
+
+    .clients .all_link
+    {
+        margin-top: 52px;
+    }
+
+
+
+    /*----------
+        Need
+    ----------*/
+    .need
+    {
+        padding-bottom: 100px;
+    }
+
+
+    .need .row
+    {
+        width: 1000px;
+    }
+
+    .need .row + .row
+    {
+        margin-top: 120px;
+    }
+
+
+    .need .question
+    {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .need .question img
+    {
+        height: 140px;
+    }
+
+    .need .row + .row .question img
+    {
+        bottom: -30px;
+    }
+
+
+    .need .row .main_question
+    {
+        top: -140px;
+
+        width: auto;
+        height: 220px;
+    }
+
+
+    .need .download_link
+    {
+        margin-top: 100px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 80px 0 40px;
+    }
+
+
+    footer .location
+    {
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,293 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 16px;
+        --font_size_title: 44px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo img
+    {
+        width: 54px;
+    }
+
+
+
+    /*-----------
+        Order
+    -----------*/
+    .order .close_btn
+    {
+        top: 36px;
+        right: 36px;
+
+        width: 36px;
+        height: 36px;
+        margin-right: 0;
+    }
+
+
+    .order .step_info.step1 .val label,
+    .order .step_info.step3 .val label
+    {
+        width: calc(50% - 10px);
+        min-width: 0;
+    }
+
+    .order .step_info.step1 .val > * + *,
+    .order .step_info.step3 .val > * + *
+    {
+        margin-left: 20px;
+    }
+
+    .order .step_info.step1 .val input + *,
+    .order .step_info.step3 .val input + *
+    {
+        padding: 19px;
+    }
+
+
+    .order .step_info.step4 .form .input
+    {
+        height: 80px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .data
+    {
+        width: 100%;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+
+    .first_section .bg
+    {
+        width: 800px;
+
+        transform: translate(-200px, -128px);
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services
+    {
+        padding-bottom: 140px;
+    }
+
+
+    .services .main_title img
+    {
+        height: 60px;
+    }
+
+
+
+    /*-----------
+        Brand
+    -----------*/
+    .brand .main_title
+    {
+        top: -88px;
+    }
+
+    .brand .main_title img
+    {
+        display: none;
+    }
+
+    .brand .main_title img.mob
+    {
+        display: block;
+
+        height: auto;
+    }
+
+
+    .brand .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 72px);
+        margin: -36px;
+        padding: 36px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .brand .row::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .brand .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .brand .row > *
+    {
+        display: inline-block;
+
+        width: 224px;
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .brand .row > * + *
+    {
+        margin-left: 32px;
+    }
+
+
+    .brand .item .name
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*------------
+        Result
+    ------------*/
+    .result .block_title
+    {
+        font-size: 72px;
+        line-height: 62px;
+    }
+
+
+    .result .desc
+    {
+        margin-top: 40px;
+    }
+
+
+    .result .stats
+    {
+        font-size: 28px;
+
+        margin-top: 40px;
+    }
+
+    .result .stats > * + *
+    {
+        margin-top: 40px;
+    }
+
+
+    .result .big_boss .info
+    {
+        bottom: 12px;
+        left: -12px;
+    }
+
+    .result .big_boss .name
+    {
+        font-size: 44px;
+    }
+
+    .result .big_boss .post
+    {
+        color: #fff;
+        font-size: 18px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .swiper
+    {
+        padding: 0;
+    }
+
+
+    .clients .swiper-button-next,
+    .clients .swiper-button-prev
+    {
+        display: none;
+    }
+
+
+    .clients .item + .item
+    {
+        margin-top: 40px;
+    }
+
+
+    .clients .all_link
+    {
+        margin-top: 68px;
+    }
+
+
+
+    /*----------
+        Need
+    ----------*/
+    .need .question
+    {
+        font-size: 23px;
+        line-height: 31px;
+
+        width: calc(50% + 108px);
+    }
+
+
+    .need .question img
+    {
+        top: -60px;
+
+        height: 120px;
+    }
+
+
+    .need .row .main_question
+    {
+        height: 160px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-top: 60px;
+    }
+}
