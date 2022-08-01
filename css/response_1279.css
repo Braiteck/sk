@@ -302,6 +302,24 @@
     }
 
 
+    .brand .item.active .bar.color1 + .info .name,
+    .brand .item.active .bar.color2 + .info .name,
+    .brand .item.active .bar.color3 + .info .name,
+    .brand .item.active .bar.color4 + .info .name
+    {
+        transform: translate(8px, -96px);
+    }
+
+
+    .brand .item:nth-child(1) .desc,
+    .brand .item:nth-child(2) .desc,
+    .brand .item:nth-child(3) .desc,
+    .brand .item:nth-child(4) .desc
+    {
+        left: 16px;
+    }
+
+
 
     /*------------
         Result

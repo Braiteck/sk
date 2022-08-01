@@ -56,10 +56,19 @@ $(() => {
 	})
 
 
+	// Услуги
 	$('.services .service .details, .services .service .bar .back_btn').click(function (e) {
 		e.preventDefault()
 
 		$(this).closest('.service').toggleClass('active')
+	})
+
+
+	// Личный бренд
+	$('.brand .item .details, .brand .item .bar .back_btn').click(function (e) {
+		e.preventDefault()
+
+		$(this).closest('.item').toggleClass('active')
 	})
 
 
@@ -183,6 +192,7 @@ $(() => {
 
 	// Маска ввода
 	$('input[type=tel]').inputmask('+ 7 999 999 99 99')
+
 
 	// Выбор файла
 	$('body').on('change', '.form input[type=file]', function (e) {
