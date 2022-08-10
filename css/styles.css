@@ -645,6 +645,33 @@ header .menu_btn img
 }
 
 
+.order .back_btn
+{
+    position: absolute;
+    top: 88px;
+    left: 50%;
+
+    display: none;
+
+    width: 80px;
+    height: 40px;
+    margin-left: -708px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.order .back_btn img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
 .order .close_btn
 {
     position: absolute;
@@ -1434,11 +1461,12 @@ header .menu_btn img
     margin-left: -24px;
 
     counter-reset: number;
+
+    justify-content: space-between;
 }
 
 .services .row > *
 {
-    width: calc(25% - 24px);
     margin-bottom: 24px;
     margin-left: 24px;
 }
@@ -1660,6 +1688,7 @@ header .menu_btn img
 
 .services .service .bar.color1
 {
+    width: 240px;
     margin: 26px 26px 0 63px;
 
     background: linear-gradient(189.21deg, #355c7d 2.91%, #0d2c46 100.77%);
@@ -1667,6 +1696,7 @@ header .menu_btn img
 
 .services .service .bar.color2
 {
+    width: 244px;
     margin: 0 32px 0 59px;
 
     background: linear-gradient(193.02deg, #715b77 -5.45%, #482a51 106.66%);
@@ -1674,6 +1704,7 @@ header .menu_btn img
 
 .services .service .bar.color3
 {
+    width: 240px;
     margin: 37px 17px 0 43px;
 
     background: linear-gradient(196.15deg, #c46eac -5.86%, #672d57 100%);
@@ -1681,6 +1712,7 @@ header .menu_btn img
 
 .services .service .bar.color4
 {
+    width: 240px;
     margin: 0 27px 0 35px;
 
     background: linear-gradient(197.3deg, #fa8b70 0%, #993d27 100%);
@@ -1909,11 +1941,12 @@ header .menu_btn img
     margin-left: -24px;
 
     counter-reset: number;
+
+    justify-content: space-between;
 }
 
 .brand .row > *
 {
-    width: calc(25% - 24px);
     margin-bottom: 24px;
     margin-left: 24px;
 }
@@ -2014,12 +2047,25 @@ header .menu_btn img
 {
     color: #dadada;
     font-size: 14px;
-    line-height: 33px;
+    line-height: 20px;
 
-    margin-top: 8px;
+    position: relative;
 
-    text-align: left;
-    text-decoration: underline;
+    display: inline-block;
+
+    margin-top: 12px;
+
+    transition: .2s linear;
+    vertical-align: top;
+
+    border-bottom: 1px solid;
+}
+
+.brand .item .details:hover
+{
+    font-weight: 700;
+
+    border-color: transparent;
 }
 
 
@@ -2084,6 +2130,7 @@ header .menu_btn img
 
 .brand .item .bar.color1
 {
+    width: 244px;
     margin: 37px 0 0 67px;
 
     background:    -moz-linear-gradient(45deg, #450a10 0%, #f54e5e 100%);
@@ -2093,6 +2140,7 @@ header .menu_btn img
 
 .brand .item .bar.color2
 {
+    width: 240px;
     margin: 0 32px 16px 32px;
 
     background:    -moz-linear-gradient(45deg, #42300e 0%, #e9b75c 100%);
@@ -2102,6 +2150,7 @@ header .menu_btn img
 
 .brand .item .bar.color3
 {
+    width: 240px;
     margin: 40px 48px 0 37px;
 
     background:    -moz-linear-gradient(45deg, #300e3c 0%, #9d6dae 100%);
@@ -2111,6 +2160,7 @@ header .menu_btn img
 
 .brand .item .bar.color4
 {
+    width: 240px;
     margin: 0 46px 7px 48px;
 
     background:    -moz-linear-gradient(45deg, #91ba70 0%, #25460a 100%);

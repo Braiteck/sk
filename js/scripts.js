@@ -138,6 +138,8 @@ $(() => {
 		$('.order .step_info.step1 .val input').prop('checked', false)
 		$(this).find('input').prop('checked', true)
 
+		$('.order .back_btn').css('display', 'flex')
+
 		parent.hide()
 		$('.order .step_info.step' + currentStep).fadeIn(300)
 	})
@@ -176,7 +178,29 @@ $(() => {
 
 		$('.order .steps .number[data-step="' + currentStep + '"]').addClass('active')
 
+		$('.order .back_btn').css('display', 'flex')
+
 		parent.hide()
+		$('.order .step_info.step' + currentStep).fadeIn(300)
+	})
+
+	// Заявка - Предыдущий
+	$('.order .back_btn').click(function (e) {
+		e.preventDefault()
+
+		let parent = $(this).closest('.order')
+
+		$('.order .steps .number[data-step="' + currentStep + '"]').removeClass('active finished')
+
+		currentStep = currentStep - 1
+
+		$('.order .steps .number[data-step="' + currentStep + '"]').removeClass('finished').addClass('active')
+
+		if (currentStep == 1) {
+			$('.order .back_btn').hide()
+		}
+
+		parent.find('.step_info').hide()
 		$('.order .step_info.step' + currentStep).fadeIn(300)
 	})
 

@@ -31,6 +31,17 @@
     }
 
 
+    .order .back_btn
+    {
+        top: 40px;
+        left: 40px;
+
+        width: 40px;
+        height: 40px;
+        margin-left: 0;
+    }
+
+
     .order .logo
     {
         margin-bottom: 40px;
@@ -201,6 +212,7 @@
     .services .service .bar.color3,
     .services .service .bar.color4
     {
+        width: 100%;
         margin: 0;
     }
 
@@ -299,15 +311,15 @@
     .brand .item:nth-child(3) .info,
     .brand .item:nth-child(4) .info
     {
-        top: 140px;
-        left: 12px;
+        top: 171px;
+        left: -3px;
     }
 
 
     .brand .item .name
     {
-        font-size: 28px;
-        line-height: 32px;
+        font-size: 30px;
+        line-height: 30px;
     }
 
 
@@ -316,6 +328,7 @@
     .brand .item .bar.color3,
     .brand .item .bar.color4
     {
+        width: 100%;
         margin: 0;
     }
 

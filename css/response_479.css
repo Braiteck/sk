@@ -14,6 +14,16 @@
     /*-----------
         Order
     -----------*/
+    .order .back_btn
+    {
+        top: 24px;
+        left: 24px;
+
+        width: 36px;
+        height: 36px;
+        margin-left: 0;
+    }
+
     .order .close_btn
     {
         top: 24px;
@@ -81,7 +91,7 @@
     {
         width: 600px;
 
-        transform: translate(-140px, -156px);
+        transform: translate(-120px, -156px);
     }
 
 
